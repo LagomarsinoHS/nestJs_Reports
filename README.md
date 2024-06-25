@@ -8,6 +8,10 @@
 ## Descripción
 Este proyecto utiliza pdfMake para crear reportes personalizados. Proporciona una solución para generar documentos PDF dinámicos y altamente personalizables, adecuados para una variedad de aplicaciones, como facturación, informes y más.
 
+## Qué hice?
+En este proyecto, utilicé NestJS junto con pdfMake para crear una plantilla de reporte personalizada. Cada campo del reporte fue diseñado a mano, asegurando que cada elemento se ajuste a las necesidades específicas del informe. La data del reporte se simula como si proviniera de una base de datos, lo que permite visualizar cómo se verían los datos reales en el reporte final.
+
+
 ## Tecnología
 Este proyecto se ha desarrollado utilizando las siguientes tecnologías:
 
