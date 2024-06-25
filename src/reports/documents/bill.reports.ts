@@ -1,8 +1,4 @@
-import {
-  Content,
-  StyleDictionary,
-  TDocumentDefinitions,
-} from 'pdfmake/interfaces';
+import { Content, StyleDictionary, TDocumentDefinitions } from 'pdfmake/interfaces';
 import { PRODUCTS } from './products.reports';
 import { Formatter } from 'src/helpers/formatter';
 

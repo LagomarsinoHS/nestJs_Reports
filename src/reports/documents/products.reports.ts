@@ -8,11 +8,5 @@ export const PRODUCTS = [
   { Id: 7, Producto: 'Impresora', Precio: 200, Cantidad: 2, Total: 200 * 2 },
   { Id: 8, Producto: 'Auriculares', Precio: 75, Cantidad: 4, Total: 75 * 4 },
   { Id: 9, Producto: 'Cámara Web', Precio: 100, Cantidad: 3, Total: 100 * 3 },
-  {
-    Id: 10,
-    Producto: 'Disco Duro Externo',
-    Precio: 80,
-    Cantidad: 5,
-    Total: 80 * 5,
-  },
+  { Id: 10, Producto: 'Disco Duro Externo', Precio: 80, Cantidad: 5, Total: 80 * 5 },
 ];

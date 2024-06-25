@@ -15,7 +15,7 @@ const FONTS = {
 export class PrinterService {
   private printer = new PdfPrinter(FONTS);
 
-  createPdf(docDefinition: TDocumentDefinitions) {
+  createPdf(docDefinition: TDocumentDefinitions): PDFKit.PDFDocument {
     return this.printer.createPdfKitDocument(docDefinition);
   }
 }

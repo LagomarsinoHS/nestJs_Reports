@@ -7,7 +7,7 @@ export class ReportsController {
   constructor(private readonly reportsService: ReportsService) {}
 
   @Get('bill')
-  async getBillReports(@Res() response: Response) {
+  async getBillReports(@Res() response: Response): Promise<void> {
     const pdfDoc = await this.reportsService.getBillReport();
 
     response.setHeader('Content-Type', 'application/pdf');
